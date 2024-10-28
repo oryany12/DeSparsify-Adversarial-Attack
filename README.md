@@ -11,3 +11,29 @@ In this paper, we present *DeSparsify*, an attack targeting the availability of 
 The attack aims to exhaust the operating system's resources, while maintaining its stealthiness.
 Our evaluation demonstrates the attack's effectiveness on three token sparsification techniques and examines the attack's transferability between them and its effect on the GPU resources.
 To mitigate the impact of the attack, we propose various countermeasures.
+
+### Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Metrics and Evaluation](#metrics-and-evaluation)
+- [Contributing](#contributing)
+- [Citation](#citation)
+
+## Overview
+This repository contains the implementation and results of "DeSparsify," an adversarial attack designed to expose vulnerabilities in vision transformers using token sparsification techniques. We provide code, data, and detailed instructions for reproducing our experiments as presented at NeurIPS 2024.
+
+## Overview
+
+## Installation
+
+## Usage
+
+## Results
+
+## Metrics and Evaluation
+
+## Contributing
+
+## Citation
