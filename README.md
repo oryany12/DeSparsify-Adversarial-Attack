@@ -24,8 +24,6 @@ To mitigate the impact of the attack, we propose various countermeasures.
 ## Overview
 This repository contains the implementation and results of "DeSparsify," an adversarial attack designed to expose vulnerabilities in vision transformers using token sparsification techniques. We provide code, data, and detailed instructions for reproducing our experiments as presented at NeurIPS 2024.
 
-## Overview
-
 ## Installation
 
 ## Usage
@@ -37,3 +35,9 @@ This repository contains the implementation and results of "DeSparsify," an adve
 ## Contributing
 
 ## Citation
+@article{yehezkel2024desparsify,
+  title={DeSparsify: Adversarial Attack Against Token Sparsification Mechanisms in Vision Transformers},
+  author={Yehezkel, Oryan and Zolfi, Alon and Baras, Amit and Elovici, Yuval and Shabtai, Asaf},
+  journal={arXiv preprint arXiv:2402.02554},
+  year={2024}
+}
