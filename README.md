@@ -35,9 +35,11 @@ This repository contains the implementation and results of "DeSparsify," an adve
 ## Contributing
 
 ## Citation
+```bibtex
 @article{yehezkel2024desparsify,
   title={DeSparsify: Adversarial Attack Against Token Sparsification Mechanisms in Vision Transformers},
   author={Yehezkel, Oryan and Zolfi, Alon and Baras, Amit and Elovici, Yuval and Shabtai, Asaf},
   journal={arXiv preprint arXiv:2402.02554},
   year={2024}
 }
+```
