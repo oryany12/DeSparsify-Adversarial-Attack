@@ -1,7 +1,7 @@
 # DeSparsify: Adversarial Attack Against Token Sparsification Mechanisms
 [![Published at NeurIPS 2024](https://img.shields.io/badge/Published-NeurIPS%202024-blue.svg)](link_to_paper)
 
-Abstract
+## Abstract
 Vision transformers have contributed greatly to advancements in the computer vision domain, demonstrating state-of-the-art performance in diverse tasks (\eg, image classification, object detection).
 However, their high computational requirements grow quadratically with the number of tokens used.
 \emph{Token sparsification} techniques have been proposed to address this issue.
