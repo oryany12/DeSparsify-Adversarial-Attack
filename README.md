@@ -20,11 +20,15 @@ To mitigate the impact of the attack, we propose various countermeasures.
 - [Results](#results)
 - [Metrics and Evaluation](#metrics-and-evaluation)
 - [Contributing](#contributing)
-- [Future-Work](#Future-Work)
 - [Citation](#citation)
 
 ## Overview
-This repository contains the implementation and results of "DeSparsify," an adversarial attack designed to expose vulnerabilities in vision transformers using token sparsification techniques. We provide code, data, and detailed instructions for reproducing our experiments as presented at NeurIPS 2024.
+This repository accompanies our NeurIPS 2024 paper, DeSparsify: Adversarial Attack Against Token Sparsification Mechanisms. It provides:
+- The implementation of the DeSparsify attack.
+- Detailed experiments demonstrating the attack's impact on token sparsification mechanisms.
+- Tools to reproduce the results and extend the work for further research.
+
+The attack targets adaptive token selection methods like ATS, AdaViT, and A-ViT, exploiting their dynamic nature to degrade performance while maintaining original model predictions.
 
 ## Installation
 
@@ -33,10 +37,16 @@ This repository contains the implementation and results of "DeSparsify," an adve
 ## Results
 
 ## Metrics and Evaluation
+We use the following metrics to evaluate the attack:
+- Token Utilization Ratio (TUR): the ratio of active tokens (those included in the computation pipeline during model inference) to the total number of tokens in the vision transformer model.
+- Memory Consumption: the GPU memory usage during model inference.
+- Throughput: the amount of time it takes the model to process an input and produce the output.
+- Energy Consumption: the overall GPU power usage during inference. This metric provides insights into the attack’s influence on energy efficiency and environmental considerations.
+- Giga Floating-Point Operations per Second (GFLOPS): the number of floating-point operations executed by the model per second.
+- Accuracy: the performance of the model on its original task.
 
 ## Contributing
-
-## Future Work
+Contributions are welcome! Feel free to report issues, suggest features, or submit improvements via pull requests.
 
 ## Citation
 ```bibtex
