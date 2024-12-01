@@ -36,6 +36,19 @@ The attack targets adaptive token selection methods like ATS, AdaViT, and A-ViT,
 
 ## Results
 
+### ATS Evaluation Table
+| **Perturbation**        | **Accuracy** | **GFLOPS** (Change %) | **TUR** (Change %) |
+|--------------------------|--------------|------------------------|--------------------|
+| **Clean**               | 88.5%       | 3.09 (0%)             | 0.54 (0%)         |
+| **Single**              | **88.2%**   | **4.20 (74%)**        | **0.88 (75%)**    |
+| **Ensemble (Single)**   | 85.6%       | 3.83 (50%)            | 0.78 (52%)        |
+| **Class-Universal**     | 83.7%       | 3.40 (21%)            | 0.63 (22%)        |
+| **Universal**           | 84.4%       | 3.31 (14%)            | 0.62 (15%)        |
+| **Universal Patch**     | 4.6%        | 3.68 (40%)            | 0.73 (42%)        |
+
+---
+
+
 ## Metrics and Evaluation
 We use the following metrics to evaluate the attack:
 - Token Utilization Ratio (TUR): the ratio of active tokens (those included in the computation pipeline during model inference) to the total number of tokens in the vision transformer model.
