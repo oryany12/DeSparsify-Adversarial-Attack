@@ -15,7 +15,11 @@ The attack aims to exhaust the operating system's resources, while maintaining i
 Our evaluation demonstrates the attack's effectiveness on three token sparsification techniques and examines the attack's transferability between them and its effect on the GPU resources.
 To mitigate the impact of the attack, we propose various countermeasures.
 
-![dog_layers](figs/dog_layers.jpg)
+<p align="center">
+  <img src="figs/dog_layers.jpg" alt="dog_layers" width="50%">
+</p>
+<p align="center"><em>Token depth distribution in terms of transformer blocks for a clean (top) and adversarial (bottom) image for three TS mechanisms (b)-(d). The colors indicate the maximum depth each token reaches before being discarded. The adversarial image is crafted using the single-image attack variant, which results in worst-case performance.</em></p>
+
 
 
 ### Table of Contents
@@ -52,6 +56,23 @@ The attack targets adaptive token selection methods like ATS, AdaViT, and A-ViT,
 | **Universal Patch**     | 4.6%        | 3.68 (40%)            | 0.73 (42%)        |
 
 ---
+### Hardware Metrics Evaluation
+
+| **Perturbation**        | **Memory [Mbits]** (Change) | **Energy [mJ]** (Change) | **Throughput [ms]** (Change) |
+|--------------------------|----------------------------|--------------------------|-----------------------------|
+| **Clean**               | 240 (1.00×)               | 2663 (1.00×)            | 12.8 (1.00×)               |
+| **Single**              | **329 (1.37×)**           | **4595 (1.72×)**        | **13.8 (1.08×)**           |
+| **Ensemble (Single)**   | 295 (1.23×)               | 3587 (1.34×)            | 13.1 (1.03×)               |
+| **Class-Universal**     | 261 (1.08×)               | 3926 (1.47×)            | 13.3 (1.04×)               |
+| **Universal**           | 250 (1.04×)               | 3404 (1.27×)            | 13.1 (1.03×)               |
+| **Universal Patch**     | 280 (1.16×)               | 4125 (1.55×)            | 13.4 (1.05×)               |
+
+### Visualization
+
+<p align="center">
+  <img src="figs/token_distribution_analysis_ATS_16.png" alt="token_distribution_analysis_ATS_16.png" width="50%">
+</p>
+<p align="center"><em>Distribution of activated tokens in each ATS block on clean and adversarial images.</em></p>
 
 
 ## Metrics and Evaluation
