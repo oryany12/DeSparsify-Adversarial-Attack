@@ -2,6 +2,8 @@
 [![Published at NeurIPS 2024](https://img.shields.io/badge/Published-NeurIPS%202024-blue.svg)](link_to_paper)
 [![arXiv](https://img.shields.io/badge/arXiv-2402.02554-b31b1b.svg)](https://arxiv.org/abs/2402.02554)
 
+![Pipline](figs/Pipeline.jpeg)
+
 ## Abstract
 Vision transformers have contributed greatly to advancements in the computer vision domain, demonstrating state-of-the-art performance in diverse tasks (eg. image classification, object detection).
 However, their high computational requirements grow quadratically with the number of tokens used.
