@@ -15,6 +15,9 @@ The attack aims to exhaust the operating system's resources, while maintaining i
 Our evaluation demonstrates the attack's effectiveness on three token sparsification techniques and examines the attack's transferability between them and its effect on the GPU resources.
 To mitigate the impact of the attack, we propose various countermeasures.
 
+![dog_layers](figs/dog_layers.jpg)
+
+
 ### Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
