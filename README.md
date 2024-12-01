@@ -20,6 +20,7 @@ To mitigate the impact of the attack, we propose various countermeasures.
 - [Results](#results)
 - [Metrics and Evaluation](#metrics-and-evaluation)
 - [Contributing](#contributing)
+- [Citation](#Future-Work)
 - [Citation](#citation)
 
 ## Overview
@@ -34,6 +35,8 @@ This repository contains the implementation and results of "DeSparsify," an adve
 ## Metrics and Evaluation
 
 ## Contributing
+
+## Future Work
 
 ## Citation
 ```bibtex
