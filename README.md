@@ -20,7 +20,7 @@ To mitigate the impact of the attack, we propose various countermeasures.
 - [Results](#results)
 - [Metrics and Evaluation](#metrics-and-evaluation)
 - [Contributing](#contributing)
-- [Citation](#Future-Work)
+- [Future-Work](#Future-Work)
 - [Citation](#citation)
 
 ## Overview
